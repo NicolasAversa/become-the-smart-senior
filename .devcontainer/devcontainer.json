@@ -1,0 +1,41 @@
+{
+  "name": "Become the smart Senior",
+  "image": "mcr.microsoft.com/devcontainers/typescript-node:0-18",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "liviuschera.noctis",
+        "PKief.material-icon-theme",
+        "esbenp.prettier-vscode"
+      ],
+      "settings": {
+        "editor.bracketPairColorization.enabled": true,
+        "editor.cursorStyle": "block",
+        "editor.fontFamily": "'JetBrains Mono', 'Fire Code', Consolas, 'Courier New', monospace",
+        "editor.fontLigatures": true,
+        "editor.fontSize": 16,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.guides.bracketPairs": "active",
+        "editor.linkedEditing": true,
+        "editor.wordWrap": "on",
+        "files.eol": "\n",
+        "terminal.integrated.defaultProfile.windows": "Command Prompt",
+        "workbench.colorTheme": "Noctis Bordo",
+        "workbench.iconTheme": "material-icon-theme",
+        // Web development
+        "eslint.alwaysShowStatus": true,
+        "eslint.format.enable": true,
+        "eslint.lintTask.enable": true,
+        "[jsonc]": {
+          "editor.defaultFormatter": "esbenp.prettier-vscode"
+        },
+        "standard.autoFixOnSave": true,
+        "standard.enableGlobally": true,
+        "tailwindCSS.includeLanguages": {
+          "plaintext": "javascript"
+        }
+      }
+    }
+  }
+}

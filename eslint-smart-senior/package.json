@@ -1,0 +1,16 @@
+{
+  "name": "eslint-smart-senior",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "author": "Nicolas Aversa",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/eslint": "8.*",
+    "@typescript-eslint/eslint-plugin": "5.*",
+    "@typescript-eslint/parser": "5.*",
+    "eslint": "8.*",
+    "typescript": "4.9.*"
+  }
+}
